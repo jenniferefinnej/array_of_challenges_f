@@ -12,11 +12,13 @@ puts "#{donut_box1 ['Boston Creme']}"
 
 #Create a hash where donuts are assigned to specific classmates
 
-Jessica = {"Lena" => "Old Fashioned", "Kelly" => "double choc cake", "Vedant" => "glazed"}
-print Jessica
+donuts = {"Lena" => "Old Fashioned", "Kelly" => "double choc cake", "Vedant" => "glazed"}
+
+print donuts
 
 #Return the donut of a specific person
 
+donuts ["Lena"] => "Old Fashioned"
 
 #Find three hash methods and experiment with them here:
 
