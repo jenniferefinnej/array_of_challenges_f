@@ -36,12 +36,24 @@ puts Array.new(19, "Jennifer")
 
 			adjectives = ["adventurous", "ambitious", "brave", "bright", "charming", "courageous", "creative", "determined", "dynamic", "diplomatic", "enthusiastic", "helpful", "honest", "humorous", "inventive", "persistent", "powerful", "reliable", "resourceful", "sincere", "thoughtful", "witty"]
 
-			
-			brilliant_star_students.each_with_index { |name, adjectives| puts "#{name} => #{adjectives}"}
-			print brilliant_star_students.each_with_index 
+			#brilliant_star_students.each_with_index { |name, adjectives| }
+			# index tells you the number the names are in order by
 
-			
+			# by you:
+			#brilliant_star_students.each_with_index { |name, adjectives| puts "#{name} => #{adjectives}"}
+			#print brilliant_star_students.each_with_index 
+
+			#brilliant_star_students.each_with_index do |value, index|
+				#puts value
+				#puts adjectives[index]
+			#end
+
+
 			#brilliant_star_students.each do |adjectives|
-			#print brilliant_star_students
-			
-			
+
+			#alternate:
+
+			brilliant_star_students.each_with_index do |value, index|
+				puts " #{adjectives[index].capitalize} #{value} "
+
+			end
